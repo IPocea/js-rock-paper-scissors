@@ -1,4 +1,4 @@
-let gameInputs = ["Rock", "Paper", "Scissors"];
+const gameInputs = ["Rock", "Paper", "Scissors"];
 let adjustPlayerInput = (playerSelection) =>
 	playerSelection.slice(0, 1).toUpperCase() +
 	playerSelection.slice(1).toLowerCase();
